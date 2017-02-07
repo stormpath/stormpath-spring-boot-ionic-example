@@ -5,9 +5,13 @@
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
-    "build": "ionic-app-scripts build",
+    "start": "electron .",
+    "build": "ionic-app-scripts build --copy electron.copy.js",
     "ionic:build": "ionic-app-scripts build",
     "ionic:serve": "ionic-app-scripts serve"
+  },
+  "copy": {
+    "ionic_copy": "electron.copy.js"
   },
   "dependencies": {
     "@angular/common": "2.3.1",
@@ -30,6 +34,7 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "1.0.0",
+    "electron": "1.4.15",
     "typescript": "2.0.9"
   },
   "cordovaPlugins": [
