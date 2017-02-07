@@ -1,7 +1,8 @@
 {
-  "name": "ionic-hello-world",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "name": "ionic-beer",
+  "author": "Matt Raible",
+  "homepage": "https://stormpath.com/",
+  "main": "main.js",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",

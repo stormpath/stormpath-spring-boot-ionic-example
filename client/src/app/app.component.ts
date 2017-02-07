@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import { Platform } from 'ionic-angular';
 import { StatusBar, Splashscreen } from 'ionic-native';
 import { TabsPage } from '../pages/tabs/tabs';
-import { Stormpath, LoginPage } from 'angular-stormpath';
+import { Stormpath } from 'angular-stormpath';
+import { LoginPage } from 'angular-stormpath-ionic';
 
 @Component({
   templateUrl: 'app.html'
